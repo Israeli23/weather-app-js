@@ -24,13 +24,19 @@ Getting Started
 Clone the repository:
 
 bash
+
 Copy code
+
 git clone https://github.com/your-username/weather-app.git
+
 Open the project directory:
 
 bash
+
 Copy code
+
 cd weather-app
+
 Open index.html in your browser to start the app.
 
 OpenWeatherMap API Key
