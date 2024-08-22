@@ -6,24 +6,20 @@
     </head>
     <body>
         <div class="card">
-            <div class="search">
-                <input type="text" placeholder="Search a Location">
-                <button><img src="images/search.png" class="search-button"></button>
-            </div>
-            <div class="weather">
-                <img src="images/rain.png" class="weather-icon">
-                <h1 class="temp">22°c</h1>
-                <h2 class="city">London</h2>
-                <div class="details">
-                    <div class="col">
-                        <img src="images/humidity.png" alt="">
-                        <div>
-                            <p class="humidity">50%</p>
-                            <p>Humidity</p>
-                        </div>
-                    </div>
-                </div>
+            <h1>Weather App</h1>
+            <div>
+                <input type="text" id="city" placeholder="Search a Location">
+                <button onclick="getWeather()">Search</button>
+
+                <img id="weather-icon" alt="Weather Icon">
+                
+                <div id="temp-div"></div>
+
+                <div id="weather-info"></div>
+
+                <div id="hourly-forecast"></div>
             </div>
         </div>
+        <script src="scripts/weatherapi.js"></script>
     </body>
 </html>
